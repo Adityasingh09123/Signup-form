@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    {{>header}}
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+    {{>navbar}}
+    <div class="container">
+        <h3>Welcome back login here</h3>
+        <form action="/login" method="POST">
+            
+            <input type="email" id="email" name="email" placeholder="Enter Your email" required>
+            
+            <input type="password" id="password" name="password" placeholder="Enter Password" required>
+
+            <input type="submit" value="Join Now">
+        </form>
+        <div class="prompt">
+            <p>Don't have account? <a href="/signup">Create here</a></p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+body{
+    margin:0;
+    padding:0;
+}
+nav{
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 10px 20px;
+}
+.image img{
+    border-radius:4px;
+    width:224;
+    height:40px;
+    margin: 100px;
+}
+
+    ul {
+    list-style: none;
+    display: flex;
+    margin: 0 55px;
+    padding: 0;
+    }
+
+    li {
+    margin: 0 10px;
+    }
+
+    button {
+    color: black;
+    background-color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    }

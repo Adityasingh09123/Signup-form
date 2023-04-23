@@ -1,0 +1,44 @@
+.container{
+    border:2px solid black;
+    margin-top: 150px;
+    width: 30%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    text-align: center;
+    background-color: black;
+ }
+ .container h3{
+    color: white;
+    margin-top: 5px;
+ }
+    label {
+    margin-top: 10px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"]{
+    width: 80%;
+    padding: 12px;
+    margin: 8px 3px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+
+    input[type="submit"]{
+        width: 80%;
+        padding: 12px;
+        margin: 8px 4px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-weight: bold;
+        font-size: 20px;
+        }
+
+    .prompt p{
+        color: white;
+    }
